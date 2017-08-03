@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movie"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    android:background="@color/movie_activity_background_color"
+    android:orientation="vertical"
+
+    tools:context="com.kamberov.popularmovies.MovieActivity">
+
+
+    <TextView
+        android:id="@+id/tv_movie_title"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:fontFamily="serif-monospace"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Title..."
+
+        android:textColor="@color/movie_activity_text_color"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@+id/iv_poster_image_individual"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_movie_rating_text"
+            android:layout_width="0dp"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="9"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/movie_activity_text_color"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/tv_movie_rating"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/movie_activity_text_color"/>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/movie_activity_text_color"
+        android:id="@+id/tv_movie_overview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="title overview"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/movie_activity_text_color"
+        android:id="@+id/tv_movie_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center_vertical|right"
+        android:paddingRight="10dp"
+        android:paddingTop="0dp"/>
+
+</LinearLayout>

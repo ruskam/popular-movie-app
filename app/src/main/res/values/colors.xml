@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#3F51B5</color-->
+    <color name="colorPrimary">#0d0e10</color>
+    <!--color name="colorPrimaryDark">#303F9F</color-->
+    <color name="colorPrimaryDark">#1e223b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="movie_activity_background_color">#0f0f12</color>
+    <color name="movie_activity_text_color">#b193b4</color>
+</resources>
